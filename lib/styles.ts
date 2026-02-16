@@ -1,0 +1,165 @@
+import { StyleOption } from "@/types";
+
+// 20가지 아트 스타일 정의
+export const STYLES: StyleOption[] = [
+    {
+        id: 1,
+        name: "수채화",
+        nameEn: "watercolor",
+        emoji: "🎨",
+        prompt:
+            "Transform this photo into a watercolor painting style. Apply soft, translucent brush strokes with gentle color blending and natural paper texture. Preserve the original composition, subject, and layout exactly.",
+    },
+    {
+        id: 2,
+        name: "유화",
+        nameEn: "oil-painting",
+        emoji: "🖼️",
+        prompt:
+            "Transform this photo into an oil painting style with rich textures, visible thick brushstrokes, vivid color contrasts, and painterly depth. Keep the original composition and subject intact.",
+    },
+    {
+        id: 3,
+        name: "연필 스케치",
+        nameEn: "pencil-sketch",
+        emoji: "✏️",
+        prompt:
+            "Transform this photo into a detailed pencil sketch drawing with fine graphite lines, cross-hatching shading, and clean white paper background. Maintain the original form and proportions.",
+    },
+    {
+        id: 4,
+        name: "일본 애니메",
+        nameEn: "anime",
+        emoji: "🌸",
+        prompt:
+            "Transform this photo into Japanese anime style with bold outlines, cel-shaded coloring, large expressive eyes for characters, vibrant colors, and clean line art. Keep the original pose and composition.",
+    },
+    {
+        id: 5,
+        name: "스튜디오 지브리",
+        nameEn: "ghibli",
+        emoji: "🏔️",
+        prompt:
+            "Transform this photo into Studio Ghibli animation style with soft pastel colors, whimsical hand-drawn details, dreamy lighting, and warm atmospheric backgrounds. Preserve the original scene layout.",
+    },
+    {
+        id: 6,
+        name: "팝 아트",
+        nameEn: "pop-art",
+        emoji: "🎭",
+        prompt:
+            "Transform this photo into Pop Art style inspired by Andy Warhol and Roy Lichtenstein. Use bold primary colors, strong black outlines, Ben-Day dots pattern, and high contrast. Keep the original subject.",
+    },
+    {
+        id: 7,
+        name: "만화/코믹북",
+        nameEn: "comic-book",
+        emoji: "💥",
+        prompt:
+            "Transform this photo into a comic book / cartoon style with bold ink outlines, flat vibrant color fills, halftone dot shading, and dynamic comic panel look. Preserve the original composition.",
+    },
+    {
+        id: 8,
+        name: "픽셀 아트",
+        nameEn: "pixel-art",
+        emoji: "👾",
+        prompt:
+            "Transform this photo into retro pixel art style with a visible pixel grid, limited color palette, and blocky 16-bit aesthetic. Maintain recognizable shapes and the original composition.",
+    },
+    {
+        id: 9,
+        name: "3D 클레이/점토",
+        nameEn: "clay-3d",
+        emoji: "🧸",
+        prompt:
+            "Transform this photo into a 3D claymation / clay figurine style with soft rounded shapes, matte clay textures, subtle fingerprint details, and warm studio lighting. Keep the original scene.",
+    },
+    {
+        id: 10,
+        name: "사이버펑크",
+        nameEn: "cyberpunk",
+        emoji: "🌃",
+        prompt:
+            "Transform this photo into a cyberpunk aesthetic with neon glow effects, dark moody atmosphere, rain-slicked surfaces, holographic highlights, and futuristic electric blue and magenta tones. Preserve the original scene.",
+    },
+    {
+        id: 11,
+        name: "인상파 (모네 스타일)",
+        nameEn: "impressionist",
+        emoji: "🌻",
+        prompt:
+            "Transform this photo into an Impressionist painting style inspired by Claude Monet, with visible loose brushstrokes, emphasis on light and color, soft edges, and a luminous atmosphere. Keep the original composition.",
+    },
+    {
+        id: 12,
+        name: "우키요에 (일본 목판화)",
+        nameEn: "ukiyo-e",
+        emoji: "🗾",
+        prompt:
+            "Transform this photo into Japanese Ukiyo-e woodblock print style with flat areas of color, strong black outlines, flowing curved lines, and traditional Japanese artistic composition. Preserve the subject.",
+    },
+    {
+        id: 13,
+        name: "캐리커처",
+        nameEn: "caricature",
+        emoji: "😄",
+        prompt:
+            "Transform this photo into a caricature style with exaggerated facial features, humorous proportions, and expressive cartoon-like rendering while keeping the subject recognizable.",
+    },
+    {
+        id: 14,
+        name: "베이퍼웨이브",
+        nameEn: "vaporwave",
+        emoji: "🌅",
+        prompt:
+            "Transform this photo into a vaporwave aesthetic with pastel pink/purple/cyan colors, retro 80s-90s digital artifacts, glitch effects, sunset gradients, and nostalgic surreal atmosphere. Preserve the composition.",
+    },
+    {
+        id: 15,
+        name: "고딕/다크 판타지",
+        nameEn: "dark-gothic",
+        emoji: "🏰",
+        prompt:
+            "Transform this photo into a dark Gothic fantasy style with dramatic shadows, deep rich colors, ornate Victorian details, mysterious atmosphere, and moody dark lighting. Keep the original scene.",
+    },
+    {
+        id: 16,
+        name: "미니멀 라인 드로잉",
+        nameEn: "line-drawing",
+        emoji: "🖊️",
+        prompt:
+            "Transform this photo into a clean minimalist line drawing with simple continuous black lines on white background, capturing only essential contours and shapes. Preserve the subject's key features.",
+    },
+    {
+        id: 17,
+        name: "레고 스타일",
+        nameEn: "lego",
+        emoji: "🧱",
+        prompt:
+            "Transform this photo into LEGO brick style, making everything look like it's built from LEGO blocks and minifigures, with plastic-like textures and blocky geometric shapes. Keep the scene recognizable.",
+    },
+    {
+        id: 18,
+        name: "심슨 스타일",
+        nameEn: "simpsons",
+        emoji: "📺",
+        prompt:
+            'Transform this photo into The Simpsons cartoon style with yellow skin tones, overbite features, bulging eyes, bright flat colors, and the distinctive Springfield animation aesthetic. Preserve the composition.',
+    },
+    {
+        id: 19,
+        name: "아르누보",
+        nameEn: "art-nouveau",
+        emoji: "🌿",
+        prompt:
+            "Transform this photo into Art Nouveau style with elegant flowing organic lines, floral and botanical decorative elements, ornate borders, muted earthy color palette, and Alphonse Mucha-inspired composition. Keep the subject.",
+    },
+    {
+        id: 20,
+        name: "GTA 게임 스타일",
+        nameEn: "gta-style",
+        emoji: "🎮",
+        prompt:
+            "Transform this photo into GTA (Grand Theft Auto) loading screen art style with bold cinematic colors, dramatic shadows, slightly exaggerated features, saturated tones, and a stylized realistic look. Preserve the composition.",
+    },
+];
