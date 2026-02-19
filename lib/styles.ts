@@ -162,4 +162,12 @@ export const STYLES: StyleOption[] = [
         prompt:
             "Transform this photo into GTA (Grand Theft Auto) loading screen art style with bold cinematic colors, dramatic shadows, slightly exaggerated features, saturated tones, and a stylized realistic look. Preserve the composition.",
     },
+    {
+        id: 21,
+        name: "9종 표정 세트",
+        nameEn: "9-expressions-grid",
+        emoji: "📸",
+        prompt:
+            "Using the uploaded photo as reference for the person's appearance (face, hair, body type), generate a single image containing a 3x3 grid of 9 portraits of this exact same person. Each cell should show a different pose and facial expression. The 9 variations should include: (1) smiling with arms crossed, (2) laughing with head tilted, (3) chin resting on hand thoughtfully, (4) covering mouth while giggling, (5) making a peace sign, (6) hands on hips confidently, (7) surprised expression with open mouth, (8) hands touching hair playfully, (9) calm neutral expression looking straight ahead. All 9 portraits must maintain the exact same person identity — same face, same hairstyle, same hair color, same clothing outfit throughout all cells. Keep the same plain light gray background in every cell. Each cell should be evenly sized and separated by thin white borders. The style should be photorealistic studio portrait photography with soft natural lighting. The output should be one single combined image with all 9 portraits arranged in a clean 3x3 grid layout.",
+    },
 ];
