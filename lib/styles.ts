@@ -140,11 +140,11 @@ export const STYLES: StyleOption[] = [
     },
     {
         id: 18,
-        name: "심슨 스타일",
-        nameEn: "simpsons",
-        emoji: "📺",
+        name: "스누피 스타일",
+        nameEn: "peanuts",
+        emoji: "🐶",
         prompt:
-            'Transform this photo into The Simpsons cartoon style with yellow skin tones, overbite features, bulging eyes, bright flat colors, and the distinctive Springfield animation aesthetic. Preserve the composition.',
+            "Transform this photo into the art style of Charles Schulz's Peanuts comic strip. Convert all people into Peanuts-style characters with: large round heads proportionally bigger than their bodies, simple dot eyes or small oval eyes, tiny round noses shown as a small curve, simple wide curved line mouths, short stubby bodies with minimal detail, thin black ink outlines with a slightly wobbly hand-drawn quality. Hair should be simplified into solid blocked shapes. Clothing should be simplified but retain the original outfit's colors and general style, rendered with flat solid colors and no gradients or shading. IMPORTANT: Preserve the original photo's background scene, environment, and setting as much as possible — redraw the background in Peanuts comic style while keeping the same locations, objects, structures, and spatial layout from the original photo. Do not replace the background with a blank or generic scene. Use a soft, muted pastel color palette consistent with the Peanuts aesthetic. The overall feel should look like an authentic Peanuts comic panel drawn by Charles Schulz. Preserve the original photo's composition, subject positions, and relative positioning of all people.",
     },
     {
         id: 19,
